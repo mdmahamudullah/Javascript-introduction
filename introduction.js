@@ -82,3 +82,4 @@ console.log(parseFloat(res.toFixed(3)));
 var price1 =100;
 var price2=30;
 console.log("change is:"+(price1-price2));
+console.log("average is:"+(price1+price2/2));
