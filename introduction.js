@@ -7,4 +7,4 @@ console.log(total);//output show
 var address="Dhaka";
 var area='Dhanmondi';
 console.log(area);
-console.log(area);
+console.log(address);
