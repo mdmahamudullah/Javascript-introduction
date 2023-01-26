@@ -27,10 +27,12 @@ var result1=first+second;
 var result2=first-second;
 var result3=first*second;
 var result4=first/second;
+var result5=first%second;
 console.log(result1);
 console.log(result2);
 console.log(result3);
 console.log(result4);
+console.log(result5);
 // override variable
 console.log('override variable');
 first=first+10;
@@ -41,6 +43,46 @@ console.log(first);
 // adding or deducting by 1
 first++;
 console.log(first);
-first --;
+first--;
 console.log(first);
+// add string
 
+var firstName="mahamud"
+var secondName="hamza"
+var v1="10";
+var v2="20";
+var v3=30;
+console.log(firstName,secondName);
+console.log(firstName+secondName);
+console.log(firstName+ " "+secondName);
+console.log(firstName+ " and and "+secondName);
+console.log(v1+v2);
+console.log(v1+v3);
+
+v1=parseInt(v1);
+console.log(v1+v3);
+
+// types of
+console.log(typeof(firstName),typeof(v1));
+
+// float
+var v4=0.1;
+var v5=0.2;
+var res=v4+v5;
+console.log(res);
+console.log(parseFloat(res));
+console.log(res.toFixed(3));
+console.log(parseFloat(res.toFixed(3)));
+
+// practice problems
+// Gets user input
+var name = prompt("What is your name?");
+var num = prompt("What is your favorite number? ");
+
+// Uses user input to print out information
+println("Hello " + name + "!");
+println(num + "?! That's my favorite number too!");
+
+// Prints out the variable type
+println("Name is a " + typeof name);
+println("Num is a " + typeof num)
