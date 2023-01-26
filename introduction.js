@@ -31,3 +31,16 @@ console.log(result1);
 console.log(result2);
 console.log(result3);
 console.log(result4);
+// override variable
+console.log('override variable');
+first=first+10;
+console.log(first);
+console.log(first+10);//this is not override
+first += 30;
+console.log(first);
+// adding or deducting by 1
+first++;
+console.log(first);
+first --;
+console.log(first);
+
