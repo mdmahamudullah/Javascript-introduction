@@ -76,13 +76,9 @@ console.log(parseFloat(res.toFixed(3)));
 
 // practice problems
 // Gets user input
-var name = prompt("What is your name?");
-var num = prompt("What is your favorite number? ");
+
 
 // Uses user input to print out information
-println("Hello " + name + "!");
-println(num + "?! That's my favorite number too!");
-
-// Prints out the variable type
-println("Name is a " + typeof name);
-println("Num is a " + typeof num)
+var price1 =100;
+var price2=30;
+console.log("change is:"+(price1-price2));
