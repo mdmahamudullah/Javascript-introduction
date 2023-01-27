@@ -20,8 +20,9 @@ else{
     console.log('i phone ami amneo kinum na');
 }
 var graduate=true;
+var salary=50000;
 
-if(graduate==true){
+if(graduate==true && salary>=50000){
     console.log('cholo polai ');
 }
 else{
