@@ -50,3 +50,23 @@ if(pass==true){
 else{
     console.log('chakrita ami pabona bela sunso');
 }
+
+var math=70;
+var code=90;
+if(pass==true){
+    if(math>=80){
+        console.log('mathe A+ ');
+    }
+    else if(math==70){
+        console.log('mathe motamuti ');
+    }
+    else{console.log('jomlo na mathe');}
+    if(code>=80){
+        console.log('codea tumi sera ');
+    }
+    else{console.log('jomlo na codea');}
+}
+
+else{
+    console.log('chakrita ami pabona bela sunso');
+}
