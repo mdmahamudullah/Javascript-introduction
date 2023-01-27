@@ -14,7 +14,7 @@
     // array length
     console.log(picnicfee.length);
     // index of
-    console.log("index of :"+picnicfee.indexOf("free"));
+    console.log("index of :"+picnicfee.indexOf(2000));
     console.log("index of :"+picnicfee.indexOf("100"));
     picnicfee.push(69,96);
     console.log("push  last :"+ picnicfee);
