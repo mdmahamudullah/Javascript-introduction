@@ -21,9 +21,13 @@ else{
 }
 var graduate=true;
 var salary=50000;
+var car=false;
 
-if(graduate==true && salary>=50000){
+if(graduate==true && salary>=50000 && car==true){
     console.log('cholo polai ');
+}
+else if(graduate===true && salary>=50000 || car==true){
+    console.log('gari nai tao cholo polai jai');
 }
 else{
     console.log('chakrita ami pabona bela sunso');
