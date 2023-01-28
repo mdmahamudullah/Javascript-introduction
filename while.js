@@ -27,8 +27,8 @@
 //     num+=2;
 // }
 // ..............0-10 odd number print another way
-var num=1;
-while(num<=10){
-    console.log(num);
-    num+=2;
-}
+// var num=1;
+// while(num<=10){
+//     console.log(num);
+//     num+=2;
+// }
