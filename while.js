@@ -11,6 +11,13 @@
 //     console.log(num);
 //     num++;
 // }
+// ..............0-10print reverse
+
+var num=10;
+while(num>=0){
+    console.log(num);
+    num--;
+}
 
 // ..............0-10 even number print
 // var num=1;
