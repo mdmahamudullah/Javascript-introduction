@@ -11,6 +11,12 @@
 //     console.log(i);
 // }
 
+// ...............print 0-10 reverse
+
+for(var i=10;i>=0;i--){
+    console.log(i);
+}
+
 // ...............print 0-10 even for
 
 // for(var i=0;i<=10;i+=2){
@@ -18,6 +24,6 @@
 // }
 // ...............print 0-10 odd for
 
-for(var i=1;i<=10;i+=2){
-    console.log(i);
-}
+// for(var i=1;i<=10;i+=2){
+//     console.log(i);
+// }
