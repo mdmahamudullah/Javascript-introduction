@@ -6,9 +6,23 @@
 // }
 
 // ..............0-10print
-var num=1;
+// var num=1;
+// while(num<=10){
+//     console.log(num);
+//     num++;
+// }
+
+// ..............0-10 even number print
+// var num=1;
+// while(num<=10){
+//     if((num%2)==0)
+//     console.log(num);
+//     num++;
+// }
+
+// ..............0-10 even number print another way
+var num=0;
 while(num<=10){
-    if((num%2)==0)
     console.log(num);
-    num++;
+    num+=2;
 }
