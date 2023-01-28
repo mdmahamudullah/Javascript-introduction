@@ -89,3 +89,5 @@ if(pass==true){
 else{
     console.log('chakrita ami pabona bela sunso');
 }
+
+let person = prompt("Please enter your name", "Harry Potter");
