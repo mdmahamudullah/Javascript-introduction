@@ -21,7 +21,13 @@
 // }
 
 // ..............0-10 even number print another way
-var num=0;
+// var num=0;
+// while(num<=10){
+//     console.log(num);
+//     num+=2;
+// }
+// ..............0-10 odd number print another way
+var num=1;
 while(num<=10){
     console.log(num);
     num+=2;
