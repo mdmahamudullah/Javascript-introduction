@@ -30,11 +30,23 @@
 
 //.................. function with multiple parameter and call
 
+// function add(num1,num2){
+
+//     var sum=num1+num2;
+//     console.log(sum);
+// }
+// var n1=10;
+// var n2=20;
+// add(n1,n2);
+
+//.................. function with return
+
 function add(num1,num2){
 
     var sum=num1+num2;
-    console.log(sum);
+    return sum;
 }
 var n1=10;
 var n2=20;
-add(n1,n2);
+
+console.log(add(n1,n2));
