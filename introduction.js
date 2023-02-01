@@ -86,5 +86,11 @@ console.log("average is:"+(price1+price2/2));
 // substring
 var diu="Daffodil international university"
 console.log(diu);
+
 var diu1=diu.substring(5,15);
 console.log(diu1);
+console.log(diu[2]);
+// cannot set new value
+diu[2]='x';
+console.log(diu[2]);
+
