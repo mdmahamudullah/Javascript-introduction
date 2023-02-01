@@ -83,3 +83,8 @@ var price1 =100;
 var price2=30;
 console.log("change is:"+(price1-price2));
 console.log("average is:"+(price1+price2/2));
+// substring
+var diu="Daffodil international university"
+console.log(diu);
+var diu1=diu.substring(5,15);
+console.log(diu1);
