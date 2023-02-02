@@ -24,11 +24,6 @@
 // }
 // ...............print 0-10 odd for
 
-// for(var i=1;i<=10;i+=2){
-//     console.log(i);
-// }
-
-var i = 5;
-for (i < 5; i++) {
- console.log(i);
+for(var i=1;i<=10;i+=2){
+    console.log(i);
 }
