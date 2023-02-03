@@ -18,3 +18,16 @@ var properties= Object.keys(shoppingCart);
 console.log(properties);
 var values=Object.values(shoppingCart);
 console.log(values);
+//************************ */
+var penCount=shoppingCart.pen;
+console.log(penCount);
+var penCount=shoppingCart['pen'];
+console.log(penCount);
+var p1='mouse'
+var mouseCount=shoppingCart[p1];
+console.log(mouseCount);
+
+var properties= Object.keys(shoppingCart);
+console.log(properties);
+var values=Object.values(shoppingCart);
+console.log(values);
