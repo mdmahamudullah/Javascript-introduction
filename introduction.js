@@ -94,3 +94,7 @@ console.log(diu[2]);
 diu[2]='x';
 console.log(diu[2]);
 
+// constant
+const m=5;
+// m=10;
+console.log(m);

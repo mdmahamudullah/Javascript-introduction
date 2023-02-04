@@ -6,28 +6,24 @@ var shoppingCart={
     pen:20
 }
 
-var penCount=shoppingCart.pen;
-console.log(penCount);
-var penCount=shoppingCart['pen'];
-console.log(penCount);
-var p1='mouse'
-var mouseCount=shoppingCart[p1];
-console.log(mouseCount);
+// var penCount=shoppingCart.pen;
+// console.log(penCount);
+// var penCount=shoppingCart['pen'];
+// console.log(penCount);
+// var p1='mouse'
+// var mouseCount=shoppingCart[p1];
+// console.log(mouseCount);
 
-var properties= Object.keys(shoppingCart);
-console.log(properties);
+var keys= Object.keys(shoppingCart);
+console.log(keys);
 var values=Object.values(shoppingCart);
 console.log(values);
-//************************ */
-var penCount=shoppingCart.pen;
-console.log(penCount);
-var penCount=shoppingCart['pen'];
-console.log(penCount);
-var p1='mouse'
-var mouseCount=shoppingCart[p1];
-console.log(mouseCount);
 
-var properties= Object.keys(shoppingCart);
-console.log(properties);
-var values=Object.values(shoppingCart);
-console.log(values);
+for(var i=0;i<keys.length;i++){
+    console.log(keys[i]+" : "+values[i]);
+}
+
+for(var propertyName in shoppingCart){
+    const value=shoppingCart[propertyName];
+    console.log(propertyName,value);
+}
