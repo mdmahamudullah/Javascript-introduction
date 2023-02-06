@@ -41,5 +41,11 @@
     console.log("pop first  :"+ picnicfee);
 
     // array include() ......that check the value is in the array or not
-    let arr=[10,20,25,30,40,50]
-    console.log("\nchecking element in array: "+arr.includes(20));
+    const arr1=[10,20,25,30,40,50]
+    const arr2=["a","b","c","d","e","f"]
+    console.log("\nchecking element in array: "+arr1.includes(20));
+    const arr3=arr1.concat(arr2);
+    console.log("\n concat elements of two array: "+arr3);
+    
+    const arr4=arr3.slice(4,8);
+    console.log("\n slice elements from a array: "+arr4);
