@@ -40,7 +40,7 @@
     // Starting at index position 1, remove two elements 
     console.log("pop first  :"+ picnicfee);
 
-    // array include() ......that check the value is in the array or not
+    // ..........................array include(),concat,slice .................
     const arr1=[10,20,25,30,40,50]
     const arr2=["a","b","c","d","e","f"]
     console.log("\nchecking element in array: "+arr1.includes(20));
@@ -48,4 +48,4 @@
     console.log("\n concat elements of two array: "+arr3);
     
     const arr4=arr3.slice(4,8);
-    console.log("\n slice elements from a array: "+arr4);
+    console.log("\n slice some elements from a array: "+arr4);
