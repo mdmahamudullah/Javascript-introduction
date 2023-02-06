@@ -39,3 +39,7 @@
     picnicfee.splice(1, 2); 
     // Starting at index position 1, remove two elements 
     console.log("pop first  :"+ picnicfee);
+
+    // array include() ......that check the value is in the array or not
+    let arr=[10,20,25,30,40,50]
+    console.log("\nchecking element in array: "+arr.includes(20));
