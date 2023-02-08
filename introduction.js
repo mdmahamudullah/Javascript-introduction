@@ -98,3 +98,9 @@ console.log(diu[2]);
 const m=5;
 // m=10;
 console.log(m);
+
+let a='hi';
+
+let b='there';
+
+console.log(a+b);
